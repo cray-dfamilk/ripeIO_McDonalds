@@ -5,21 +5,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./assets/js/vendors.js"></script>
+    <script src="assets/js/turn.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
 </head>
 <body>
   <section id="page-home">
     <div class="wrapper-page">
         <div id="flipbook">
-            <div style="background-image:url('img/comicBook/KidsDay_Book_1.jpg');"></div>
-            <div style="background-image:url('img/comicBook/KidsDay_Book_2.jpg');"></div>
-            <div style="background-image:url('img/comicBook/KidsDay_Book_3.jpg');"></div>
-            <div style="background-image:url('img/comicBook/KidsDay_Book_4.jpg');"></div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_1.jpg" alt="DFA superheroes comic book cover image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_2.jpg" alt="DFA superheroes comic book page 2 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_3.jpg" alt="DFA superheroes comic book page 3 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_4.jpg" alt="DFA superheroes comic book page 4 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_5.jpg" alt="DFA superheroes comic book page 5 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_6.jpg" alt="DFA superheroes comic book page 6 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_7.jpg" alt="DFA superheroes comic book page 7 image">
+            </div>
+                <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_8.jpg" alt="DFA superheroes comic book page 8 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_9.jpg" alt="DFA superheroes comic book page 9 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_10.jpg" alt="DFA superheroes comic book page 10 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_11.jpg" alt="DFA superheroes comic book page 11 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_12.jpg" alt="DFA superheroes comic book page 12 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_13.jpg" alt="DFA superheroes comic book page 13 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/" alt="DFA superheroes comic book page 14 word search game">
+            </div>
+            <div class="">
+                <img src="assets/img/comicBook/KidsDay_Book_15.jpg" alt="DFA superheroes comic book color the cow game">
+            </div>
+            <div class="game">
+                <img src="assets/img/comicBook/maze.gif" width="480px" height="auto" alt="DFA superheroes comic book delivery truck maze image" >
+            </div>
+            <div class="game">
+                <img src="assets/img/comicBook/connect-the-dot.gif" width="480px" height="auto" alt="DFA superheroes comic book connect the dots image">
+            </div>
+            <div class="">
+                <img src="assets/img/comicBook/KidsDay_Book_18.jpg" alt="DFA superheroes comic book page 18 image">
+            </div>
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_19.jpg" alt="DFA superheroes comic book page 19 image">
+            </div>
+            <!-- <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_20.jpg" alt="DFA superheroes comic book page 20 image">
+            </div> -->
+            <!-- <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_21.jpg" alt="DFA superheroes comic book page 21 image">
+            </div> -->
+            <!-- <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_22.jpg" alt="DFA superheroes comic book page 22 image">
+            </div> -->
+            <!-- <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_23.jpg" alt="DFA superheroes comic book page 23 image">
+            </div> -->
+            <div class="hard">
+                <img src="assets/img/comicBook/KidsDay_Book_24.jpg" alt="DFA superheroes comic book page back cover image">
+            </div>
         </div>
     </div>
   </section>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/app.js"></script>
+  <script type="text/javascript">
+    $('flipbook').turn({
+        width: 100%,
+        height: 500,
+        autocenter: true
+    });
+  </script>
 </body>
 </html>
